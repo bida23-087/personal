@@ -1,0 +1,77 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #002147;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    background: #003366;
+    width: 100%;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.movies {
+    max-width: 600px;
+    width: 100%;
+}
+
+.movie-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.movie-card {
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.movie-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+@media (min-width: 600px) {
+    .movie-cards {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
