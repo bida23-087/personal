@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warner Bros</title>
+     <link rel="shortcut icon" href="Warner Bros logo.png"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #213a5c;
+            
+        }
+        header {
+            position:relative;
+            background-image: url("Warner bros backgroud.jpg");
+            background-size: cover;
+            background-position:center;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            height:20vh;
+            filter:brightness(90%);
+        }
+         section {
+            padding: 20px;
+            text-align:center;
+            font-size:30px;
+        }
+        footer {
+            background-color: #011E33;
+            color: #fff;
+            text-align:left;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+               font-family: Arial, sans-serif;
+             text-transform:uppercase;
+            font-weight:bold;
+              text-decoration: none;
+              
+        }
+        .logo {
+            display: block;
+            margin: 0;
+            width: 80px;
+            height: 90px;
+            float:left;
+            padding:5px;
+           
+              }
+             nav {
+            background-color:transparent;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            text-transform:uppercase;
+            font-weight:bold;
+            font-size:30px;
+               
+            
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            color:#ADD8E6;
+        }
+        h2{
+            color:#fff;
+        }
+         .container {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            max-width:60%;
+            align-items:center;
+        }
+        .poster {
+            background-color: white;
+            padding:3%; 
+            border-radius:2%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            flex: 1;
+            margin: 30px;
+            margin-left:20px;
+            max-width:50%;
+         
+
+        }
+        .poster img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .description {
+            margin-top: 10px;
+        }
+        #movies{
+            Margin-top:-3%;
+            Margin-left:30px;
+        }
+        .poster:hover{
+            background-color:#808080;
+             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        h3{
+            
+        }
+        @media (max-width: 768px) {
+    .poster {
+        flex: 1 1 calc(50% - 20px); /* Set maximum width for posters (1/2 of the container width) */
+    }
+
+    nav {
+        text-align: right; /* Center align text on medium screens */
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .poster {
+        flex: 1 1 calc(100% - 20px); /* Set maximum width for posters (full width of the container) */
+    }
+
+    nav {
+        text-align: right; /* Center align text on small screens */
+        font-size: 15px; /* Adjust font size for better readability */
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+    }
+}
+           .social media{
+             font-family: Arial, sans-serif;
+             text-transform:uppercase;
+            font-weight:bold;
+        }
+        .social media a:hover {
+                   color: #ADD8E6;
+}
+        .social media a{
+             font-family: Arial, sans-serif;
+             text-transform:uppercase;
+            font-weight:bold;
+             }
+
+       
+        </style>
+</head>
+<body>
+
+<header>
+    <a href="index.html">
+    <img src="Warner Bros logo.png" alt="Warner Bros Logo" class="logo">
+
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="Movies.html">Movies</a>
+    <a href="TV shows.html">TV Shows</a>
+    <a href="Games.html">Games</a>
+    <a href="Collections.html">Collections</a>
+    <a href="Feedback.html">Feedback</a>
+</nav>
+</header>
+
+<section id="Collections">
+    <h2>Collections</h2>
+    <p>These are some of our collections we have here at warner bros from 80's comedy movies to action to even cartoons</p>
+    <div class="container">
+        <div class="poster">
+            <img src="80s.jpeg" alt="80s movies">
+            <div class="description">
+                <h3>80s Movies collection</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="poster">
+            <img src="Action movie.jpeg" alt="Action movies">
+            <div class="description">
+                <h3>Action movies collection</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="poster">
+            <img src="Looney Tunes.jpg" alt="Looney Tunes">
+            <div class="description">
+                <h3>Looney Tunes collection</h3>
+                <p></p>
+        </div>
+    </div>
+         <div class="poster">
+            <img src="TBBT.jpg" alt="Comedy">
+            <div class="description">
+                <h3>Best comedy collection</h3>
+                <p></p>
+            </div>
+         </div>
+</section>
+
+<footer>
+    <p>Follow us on social media to keep up with updates and deals we are offering:</p>
+    <ul class="social media">
+        <li><a href="https://www.facebook.com/warnerbrosuk/"_blank" rel="noopener noreferrer">Facebook</a></li>
+        <li><a href="https://twitter.com/warnerbros?lang=en" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        <li><a href="https://www.instagram.com/warnerbrosentertainment/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/company/warner-bros--entertainment" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+    </ul>
+    
+    <p>TM & © 2024 Warner Bros. Entertainment Inc. All rights reserved.</p>
+    
+</footer>
+
+</body>
+</html>
