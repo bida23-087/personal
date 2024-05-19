@@ -151,12 +151,12 @@
              text-transform:uppercase;
             font-weight:bold;
              }
-            
-            
-            
-
-       
-        </style>
+        .cs-hidden{
+    overflow: visible !important;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+         </style>
 </head>
 <body>
 
@@ -178,6 +178,7 @@
 <section id="movies">
     <h2>Movies</h2>
     <p>Explore the latest movies from Warner Bros.</p>
+     <ul id="autowidth2" class="cs-hidden">
     <div class="container">
         <div class="poster">
             <img src="superman.jpg" alt="Superman">
