@@ -215,11 +215,10 @@
         var messageError = document.getElementById('messageError');
         var valid = true;
 
-        // Reset errors
         emailError.textContent = '';
         messageError.textContent = '';
 
-        // Validate email
+    
         if (!email) {
             emailError.textContent = 'Email is required.';
             valid = false;
@@ -228,10 +227,12 @@
             valid = false;
         }
 
-        // Validate message
         if (!message) {
             messageError.textContent = 'Message is required.';
             valid = false;
+        }
+          if (valid) {
+            document.getElementById('feedbackForm').reset();
         }
 
       
